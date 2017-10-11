@@ -3,6 +3,9 @@
 SmallMlValidator checks that a string conforms to a small subset of html that
 is safe for embedding in html documents, xml documents and tsv files.
 
+The exact format is defined in validator.pegjs which hopefully should be
+self-explanatory.
+
 For sanitizing the user input, you might try my other projects cnitize and
 SmallMlSanitizer
 
