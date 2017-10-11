@@ -11,7 +11,7 @@ CTag = NormalCTag / ACTag
 
 NormalOTag = '<' n:TagName '>' {return n}
 NormalCTag = '</' n:TagName '>' {return n}
-TagName = [bui] / "tt"
+TagName = [buis] / "tt"
 
 AOTag = '<a href="' URLScheme AttrText '">' { return 'a'}
 ACTag = '</a>' { return 'a'}

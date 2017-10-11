@@ -24,7 +24,7 @@ There are non dependencies except for node.
     OK
 
     $ echo '<i><i>invalid</b> string</u>'| node index.js
-    KO, Column 15: Expected "tt" or [bui] but "/" found.
+    KO, Column 15: Expected "tt" or [buis] but "/" found.
 
 ## As a node module
 
